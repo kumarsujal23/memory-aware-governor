@@ -1,0 +1,28 @@
+# Build directories
+build/
+bin/
+lib/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.cmake
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.clangd/
+compile_commands.json
+
+# Evaluation data
+eval/results/*.log
+eval/results/*.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+/docs
+/eval/results
